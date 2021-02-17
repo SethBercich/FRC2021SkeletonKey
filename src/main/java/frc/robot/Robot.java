@@ -137,6 +137,8 @@ public class Robot extends TimedRobot {
     }else{
       wheelArm.set(0);
     }
+
+    
     //End Colorwheel Commands Stuff
   }
 
