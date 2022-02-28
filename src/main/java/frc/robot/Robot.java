@@ -32,9 +32,9 @@ public class Robot extends TimedRobot {
   private double kValueToInches = 0.125;
 
   private WPI_TalonSRX leftMaster  = new WPI_TalonSRX(3);
-  private WPI_TalonSRX leftSlave   = new WPI_TalonSRX(1);
-  private WPI_TalonSRX rightMaster = new WPI_TalonSRX(2);
-  private WPI_TalonSRX rightSlave  = new WPI_TalonSRX(0);
+  private WPI_TalonSRX leftSlave   = new WPI_TalonSRX(2);
+  private WPI_TalonSRX rightMaster = new WPI_TalonSRX(0);
+  private WPI_TalonSRX rightSlave  = new WPI_TalonSRX(1);
   private DifferentialDrive drive  = new DifferentialDrive(leftMaster, rightMaster);
 
   private WPI_TalonSRX leftBallMotor1  = new WPI_TalonSRX(4);
@@ -43,7 +43,7 @@ public class Robot extends TimedRobot {
   private WPI_TalonSRX rightBallMotor2 = new WPI_TalonSRX(7);
   private WPI_TalonSRX wheelArm = new WPI_TalonSRX(8);
   private WPI_TalonSRX wheelSpinner = new WPI_TalonSRX(9);
-  //private WPI_TalonSRX EXTRA = new WPI_TalonSRX(10);
+
   private double startTime;
   //private static final double kHoldDistance = 12.0; //These are for Distance Sensors
   //private static final double kValueToInches = 0.125;
